@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="../css/Pokeball.css">
+</head>
+
+  <!-- Header -->
+  <header>
+    
+    <div class="logo"><img src="../imagem/pokeballs.png" class="imglogo">Pokéwiki</div>
+    <div class="login-btn">
+      <button onclick="login()">Login</button>
+    </div>
+  </header>
+
+  <body>
+    <div class="resumo">
+      <p>Pokébolas são esferas onde Pokémon são capturados, sendo adicionados ao seu time ou ao PC caso seu time esteja completo. Confira abaixo a lista de Pokébolas com seus efeitos e preços:</p>
+    </div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Kanto (Pokémon Red/Blue/Green/Yellow):</p>
+    </div>
+
+    <div class="Pokeballinfo">
+        <img src="../imagem/pokebola.png">
+        <p>Pokébola (Pokéball) comum, adicionada na primeira geração, em Kanto, tem a chance padrão de captura de um Pokémon. É comprada por $200 ($100 em Pokémon Let's Go: Pikachu/Eevee) e pode ser vendida por $50 ($100 em qualquer jogo exceto Pokémon Scarlet/Violet e Pokémon Let's Go: Pikachu/Eevee)</p>
+    </div>
+
+    <div class="Pokeballinfo">
+      <img src="../imagem/greatball.png">
+      <p>Grande Bola (Great Ball), adicionada na primeira geração, em Kanto, aumenta a chance de captura de um Pokémon em 1.5X.  É comprada por $600 ($300 em Pokémon Let's Go: Pikachu/Eevee) e pode ser vendida por $150 ($300 em qualquer jogo exceto Pokémon Scarlet/Violet e Pokémon Let's Go: Pikachu/Eevee)</p>
+  </div>
+
+  <div class="Pokeballinfo">
+    <img src="../imagem/ultraball.png">
+    <p>Ultra Bola (Ultra Ball), adicionada na primeira geração, em Kanto, aumenta a chance de captura de um Pokémon em 2X. Pode ser comprada por $1.200 ($800 desde Pokémon Sun/Moon até Pokémon Sword/Shield; $500 em Pokémon Let's Go: Pikachu/Eevee ou $800 em Pokémon Scarlet/Violet) e pode ser vendida por $600 ($400 desde Pokémon Sun/Moon até Pokémon Sword/Shield, $250 em Pokémon Let's Go: Pikachu/Eevee, $200 em Pokémon Scarlet/Violet)</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/masterball.png">
+  <p>Bola Mestra (Master Ball), adicionada na primeira geração, em Kanto, garante a captura de qualquer Pokémon. Pode ser encontrada após concluir uma tarefa específica em cada jogo ou ao utilizar um método específico. Não pode ser comprada nem vendida.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/safariball.png">
+  <p>Bola Safari (Safari Ball), adicionada na primeira geração, em Kanto, é utilizada apenas na Zona Safari, aumenta a chance de captura de 1.5X. É recebida ao entrar em uma Zona Safari, ao registrar 120 Pokémon na Pokédex de Blueberry Academy (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). Não Pode ser comprada nem vendida.</p>
+</div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Jotoh (Pokémon Gold/Silver/Crystal):</p>
+    </div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/loveball.png">
+  <p>Bola do Amor (Love Ball), adicionada na segunda geração, em Jotoh, aumenta a chance de captura em 8X se o Pokémon selvagem for da mesma espécie do Pokémon do jogador e tiver o gênero oposto do Pokémon utilizado. É recebida ao completar uma tarefa específica, ao registrar 120 Pokémon na Pokédex de Kitakami (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/friendball.png">
+  <p>Bola da Amizade (Friend Ball), adicionada na segunda geração, em Jotoh, possui a taxa padrão de captura, porém aumenta a amizade do Pokémon capturado em 150. É recebida ao completar uma tarefa específica, ao registrar 120 Pokémon na Pokédex de Kitakami (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/levelball.png">
+  <p>Bola de Nível (Level Ball), adicionada na segunda geração, em Jotoh, aumenta a taxa de captura de acordo com o nível do Pokémon selvagem em relação ao seu Pokémon.
+   Se o Pokémon do jogador possui o nível menor ou igual ao nível do Pokémon selvagem, possui a taxa de captura padrão.
+   Se o Pokémon do jogador possui o nível maior do que nível do Pokémon selvagem, porém menor do que o dobro, aumenta a taxa de captura em 2X.
+   Se o Pokémon do jogador possui o nível maior do que nível do Pokémon selvagem, porém maior do que o dobro, aumenta a taxa de captura em 4X.
+   Se o Pokémon do jogador possui o nível quatro vezes maior do que nível do Pokémon selvagem, aumenta a taxa de captura em 8X.
+  Pode ser obtida após completar alguma tarefa específica ou utilizar um método específico. 
+  Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/lureball.png">
+  <p>Bola Isca (Lure Ball), adicionada na segunda geração, em Jotoh, aumenta a taxa de captura em 1.5X se for utilizada em um Pokémon pescado. É recebida ao completar uma tarefa específica, ao registrar 300 Pokémon na Pokédex de Paldea (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). Não Pode ser comprada nem vendida.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/Moonball.png">
+  <p>Bola da Lua (Moon Ball), adicionada na segunda geração, em Jotoh, aumenta a taxa de captura em 4X se for utilizada em um Pokémon que evolui utilizando uma Pedra da Lua (Moon Stone). É recebida ao completar uma tarefa específica, ao registrar 340 Pokémon na Pokédex de Paldea, 200 Pokémon na Pokédex de Kitakami, 180 Pokémon na Pokédex de Blueberry Academy (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/heavyball.png">
+  <p>Bola Pesada (Heavy Ball), adicionada na segunda geração, em Jotoh, aumenta a taxa de captura baseado no peso do Pokémon selvagem. É recebida ao completar uma tarefa específica, ao registrar 260 Pokémon na Pokédex de Paldea ou 160 Pokémon na Pokédex de Kitakami (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/fastball.png">
+  <p>Bola Rápida (Fast Ball), adicionada na segunda geração, em Jotoh, aumenta a taxa de captura em 4X se a velocidade base do Pokémon selvagem for maior que 100. É recebida ao completar uma tarefa específica, ao registrar 240 Pokémon na Pokédex de Paldea (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+
+<div class="Pokeballinfo">
+  <img src="../imagem/sportball.png">
+  <p>Bola do Esporte (Sport Ball), adicionada na segunda geração, em Jotoh, possuia a taxa de captura aumentada em 1.5X até a quinta geração e só poderia ser obtida durante eventos semanais.
+    A partir de Pokémon Sword/Shield pode ser obtida fora destes eventos e possui a taxa de captura padrão.
+    É recebida através de eventos específicos ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). 
+    Não pode ser comprada em nenhum jogo, porém pode ser vendida por $150 em qualquer jogo antes de Pokémon Sun/Moon.</p>
+</div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Hoeen (Pokémon Ruby/Sapphire/Emerald):</p>
+    </div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/netball.png">
+  <p>Bola de Rede (Net Ball), adicionada na terceira geração, em Hoeen, possui a taxa de captura aumentada em 3.5X quando utilizada em Pokémon do tipo Água ou Inseto. Pode ser comprada por $1.000 e vendida por $500 ($250 em Pokémon Scarlet/Violet).</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/diveball.png">
+  <p>Bola de Mergulho (Dive Ball), adicionada na terceira geração, em Hoeen, possui a taxa de captura aumentada em 3.5X quando utilizada enquanto está surfando, pescando ou debaixo d'água. Pode ser comprada por $1.000 (exceto na primeira e quarta geração) e vendida por $500 ($250 em Pokémon Scarlet/Violet).</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/premierball.png">
+  <p>Bola Prêmio (Premier Ball), adicionada na terceira geração, em Hoeen, possui a taxa de captura padrão. Não pode ser comprada diretamente (exceto em Black/White 2 e X/Y, com o custo $500 em Black/White 2 e $200 em X/Y), porém é possivel receber uma a cada dez (10) Pokébolas de qualquer tipo compradas e ser vendida por $100 até Pokémon X/Y , $10 em Pokémon Sun/Moon até Pokémon Sword/Shield e $5 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/luxuryball.png">
+  <p>Bola de Luxo (Luxury Ball), adicionada na terceira geração, em Hoeen, possui a taxa de captura padrão, porém o Pokémon capturado nela ganhará mais pontos de amizade do que o padrão. Pode ser comprada por $3.000 ($1.000 até Pokémon Ultra Sun/Moon) e ser vendida por $500 até Pokémon Ultra Sun/Moon, $1.500 em Pokémon Sword/Shield ou $750 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/timerball.png">
+  <p>Bola de Tempo (Timer Ball), adicionada na terceira geração, em Hoeen, aumenta a taxa de captura quanto mais turnos se passam desde o inicio da batalha, ficando melhor que uma Ultra Bola após quatro (4) turnos e com o limite de dez (10) turnos. Pode ser comprada por $1.000 e vendida por $500 até Pokémon Sword/Shield ou $250 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/repeatball.png">
+  <p>Bola Repetida (Repeat Ball), adicionada na terceira geração, em Hoeen, aumenta a taxa de captura em 3.5X se o Pokémon selvagem estiver registrado na Pokédex. Pode ser comprada por $1.000 e ser vendida por $500 até Pokémon Sword/Shield ou $250 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/nestball.png">
+  <p>Bola Ninho (Nest Ball), adicionada na terceira geração, em Hoeen, aumenta a taxa de captura de acordo com o nivel do Pokémon selvagem se for menor do que 29. Pode ser comprada por $1.000 e ser vendida por $500 até Pokémon Sword/Shield ou $250 em Pokémon Scarlet/Violet.</p>
+</div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Sinnoh (Pokémon Diamond/Pearl/Platinum):</p>
+    </div>
+
+    <div class="Pokeballinfo">
+  <img src="../imagem/quickball.png">
+  <p>Bola Ligeira (Quick Ball), adicionada na quarta geração, em Sinnoh, aumenta a taxa de captura em 5X se utilizada no primeiro turno. Pode ser comprada por $1.000 e ser vendida por $500 até Pokémon Sword/Shield ou $250 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/duskball.png">
+  <p>Bola Escura (Dusk Ball), adicionada na quarta geração, em Sinnoh, aumenta a taxa de captura em 3X se utilizada em uma caverna ou de noite. Pode ser comprada por $1.000 e ser vendida por $500 até Pokémon Sword/Shield ou $250 em Pokémon Scarlet/Violet.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/cherishball.png">
+  <p>Bola Apreciada (Cherish Ball), adicionada na quarta geração, em Sinnoh, vem junto a Pokémon obtidos por eventos ou códigos distribuídos. Não é possivel obter uma em sua mochila para uso.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/parkball.png">
+  <p>Bola de Parque (Park Ball), adicionada na quarta geração, em Sinnoh, possui captura garantida de Pokémon no Pal Park. Não é possivel obter uma em sua mochila para uso.</p>
+</div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/healball.png">
+  <p>Bola de Cura (Heal Ball), adicionada na quarta geração, em Sinnoh, possui a taxa de captura padrão, porém recupera completamente o HP e PP do Pokémon capturado, além de remover qualquer condição de status. Pode ser comprada por $300 e ser vendida por $150 até Pokémon Sword/Shield ou $75 em Pokémon Scarlet/Violet.</p>
+</div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Unova (Pokémon White/Black):</p>
+    </div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/dreamball.png">
+  <p>Bola do Sonho (Dream Ball), adicionada na quinta geração, em Unova, aumenta a taxa de captura em 4X se utilizada em um Pokémon dormindo. Não é possivel comprar diretamente, porém recebida ao completar uma tarefa específica, ao registrar 360 Pokémon na Pokédex de Paldea (Pokémon Scarlet/Violet), registrar 200 Pokémon na Pokédex de Blueberry Academy (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). Não pode ser vendida.</p>
+</div>
+
+<div class="regiaotitulo">
+      <p style="font-size: 30px;">Alola (Pokémon Sun/Moon):</p>
+    </div>
+
+<div class="Pokeballinfo">
+  <img src="../imagem/beastball.png">
+  <p>Bola Bestial (Beast Ball), adicionada na sétima geração, em Alola, aumenta a taxa de captura em 5X se utilizada em um Pokémon de classe Ultra Beast. Não é possivel comprar diretamente (Exceto em Pokémon Ultra Sun/Moon, que é vendida por $1.000), porém pode ser recebida ao completar uma tarefa específica, ao registrar 400 Pokémon na Pokédex de Paldea (Pokémon Scarlet/Violet), registrar 220 Pokémon na Pokédex de Blueberry Academy (Pokémon Scarlet/Violet) ou ao utilizar o Item Printer durante uma Poké Ball Loto (Pokémon Scarlet/Violet). Não pode ser vendida.</p>
+</div>
+
+    <div class="regiaotitulo">
+      <p style="font-size: 30px;">Hisui (Pokémon Legends: Arceus):</p>
+    </div>
+
+    <div class="Pokeballinfo">
+  <img src="../imagem/strangeball.png">
+  <p>Bola Estranha (Strange Ball), adicionada na oitava geração, em Hisui, aparece no sumario de Pokémon capturados em Pokémon Legends: Arceus ao serem transferidos para outros jogos da franquia via o serviço Pokémon Home. Não pode ser obtida para uso</p>
+  </div>
+
+  <div class="Pokeballinfo">
+  <img src="../imagem/leadenball.png">
+  <p>Bola de Chumbo (Leaden Ball), adicionada na oitava geração, em Hisui, é uma versão aprimorada da Bola Pesada (Heavy Ball) de Hisui, possui a chance de captura padrão de 1.75X e aumenta a chance em 2X quando lançada em um Pokémon sem ser notado pelo jogador. Pode ser comprada por $320, vendida por $80 ou criada utilizando 1 (uma) Apricorn, 1 (uma) Pedra Negras (Black Tumblestone) e 1 (um) pedaço de Ferro.</p>
+  </div>
+
+  <div class="Pokeballinfo">
+  <img src="../imagem/gigatonball.png">
+  <p>Bola Gigante (Gigaton Ball), adicionada na oitava geração, em Hisui, é uma versão melhorada da Bola de Chumbo, possui a chance de captura padrão de 2.5X e aumenta a chance de captura em 2.75X quando lançada em um Pokémon sem ser notado pelo jogador. Não pode ser comprada, pode ser vendida por $160 ou criada utilizando 1 (uma) Apricorn, 2 (duas) Pedras Negras (Black Tumblestones) e 2 (dois) Pedaços de Ferro (Iron Chunk).</p>
+  </div>
+
+   <div class="Pokeballinfo">
+  <img src="../imagem/featherball.png">
+  <p>Bola de Penas (Feather Ball), adicionada na oitava geração, em Hisui, possui a chance de captura padrão de 1X e aumenta a chance em 1.25X quando lançada a distancia. Pode ser comprada por $140, vendida por $35 ou criada utilizando 1 (uma) Apricorn e 1 (uma) Pedra do Céu (Sky Tumblestone).</p>
+  </div>
+
+  <div class="Pokeballinfo">
+  <img src="../imagem/wingball.png">
+  <p>Bola de Asas (Wing Ball), adicionada na oitava geração, em Hisui, é uma versão melhorada da Bola de Penas,  possui a chance de captura padrão de 1.5X e aumenta a chance em 1.25X quando lançada a distancia. Pode ser comprada por $340, vendida por $85 ou criada utilizando 1 (uma) Apricorn, 1 (uma) Pedra do Céu (Sky Tumblestone) e 1 (um) Pedaço de Ferro (Iron Chunk).</p>
+  </div>
+
+  <div class="Pokeballinfo">
+  <img src="../imagem/jetball.png">
+  <p>Bola a Jato (Jet Ball), adicionada na oitava geração, em Hisui, é uma versão melhorada da Bola de Asas,  possui a chance de captura padrão de 2X e aumenta a chance de captura em 2.25X quando lançada a distancia. Não pode ser comprada, pode ser vendida por $170 ou criada utilizando 1 (uma) Apricorn, 2 (duas) Pedras do Céu (Sky Tumblestones) e 2 (dois) Pedaços de Ferro (Iron Chunk).</p>
+  </div>
+
+    <div class="Pokeballinfo">
+  <img src="../imagem/originball.png">
+  <p>Bola Original (Origin Ball), adicionada na oitava geração, em Hisui, é utilizada para a captura garantida de Dialga ou Palkia em suas formas originais após a história principal do jogo. Não pode ser comprada nem vendida, é ganha pelo jogador do Professor Laventon após concluir a missão 18 (dezoito) e obter o Minério da Origem (Origin Ore).</p>
+  </div>
+<!--
+<div class="rodape">
+  <h1>Imagens retiradas de: Serebii.com, Bulbapedia.com e Pokemon Wiki-Fandom.com</h1>
+  <h1>Informações retiradas de: Bulbapedia.com</h1>
+  <h1>Todos os direitos reservados á The Pokémon Company, Gamefreak e Nintendo</h1>
+</div>
+-->
+  </body>
+</html>

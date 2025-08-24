@@ -1,0 +1,130 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 80px; /* Deixando espaço para o cabeçalho fixo */
+  }
+  
+  /* Estilo do Header */
+  header {
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  /*Imagem da Logo*/
+  .imglogo{
+  width: 70px;
+  height: 50px;
+  float: left;
+  position: relative;
+  }
+  /* Logo no canto superior esquerdo */
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Botão de login no canto superior direito */
+  .login-btn button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn button:hover {
+    background-color: red;
+  }
+  
+  /* Estilo para a lista de Pokémon */
+  .pokemon-list {
+    margin-top: 120px; /* Espaço abaixo do cabeçalho */
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  .pokemon-list h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Container para os Pokémon */
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+  }
+  
+  /* Estilo do item de Pokémon */
+  .pokemon-item {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .pokemon-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Estilo para o botão "Ver mais" */
+  .load-more-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .load-more-btn:hover {
+    background-color: red;
+  }
+  

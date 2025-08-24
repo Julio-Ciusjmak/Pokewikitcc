@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokéwiki</title>
+  <link rel="stylesheet" href="../css/Pokewiki.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Pokéwiki</div>
+    <div class="login-btn">
+      <button onclick="login()">Login</button>
+    </div>
+  </header>
+
+  <!-- Barra de pesquisa -->
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Buscar Pokémon...">
+    <button onclick="search()">Buscar</button>
+  </div>
+
+  <!-- Quadrados de conteúdo -->
+  <div class="squares-container">
+    <div class="square">
+      <h3>Pokédex</h3>
+      <img src="../imagem/Pokedex.png" alt="Pokédex" class="square-image">
+      <a href="Pokedex.html" class="buttonstyle">Ver todos os Pokémon</a>
+    </div>
+
+    <div class="square">
+      <h3>Movimentos</h3>
+      <img src="../imagem/moves.png" alt="Movimentos" class="square-image">
+      <a href="Moves.html" class="buttonstyle">Ver Movimentos</a>
+    </div>
+
+    <div class="square">
+      <h3>Tipos</h3>
+      <img src="../imagem/types.png" alt="Tipos" class="square-image">
+      <a href="#" class="buttonstyle">Ver Tipos</a>
+    </div>
+
+    <div class="square">
+      <h3>Pokébolas</h3>
+      <img src="../imagem/pokeballs.png" alt="Pokebolas" class="square-image">
+      <a href="Pokeball.html" class="buttonstyle">Ver Pokébolas</a>
+    </div>
+
+    <div class="square">
+      <h3>Equipes Vilãs</h3>
+      <img src="../imagem/viloes.png" alt="Pokebolas" class="square-image">
+      <a href="Equipes.html" class="buttonstyle">Ver Equipes Vilãs</a>
+    </div>
+  </div>
+  
+   <div class="square">
+      <h3>Mecanicas de Batalha</h3>
+      <img src="../imagem/types.png" alt="Mecanicas" class="square-image">
+      <a href="Mecanicas.html" class="buttonstyle">Ver Mecanicas de Batalha</a>
+    </div>
+
+  <script src="../js/Pokewiki.js"></script>
+</body>
+</html>

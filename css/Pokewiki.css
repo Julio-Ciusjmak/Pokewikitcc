@@ -1,0 +1,139 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 80px; /* Deixando espaço para o cabeçalho fixo */
+  }
+  
+  /* Estilo do Header */
+  header {
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  /* Logo no canto superior esquerdo */
+  .logo {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Botão de login no canto superior direito */
+  .login-btn button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn button:hover {
+    background-color: red;
+  }
+  
+  /* Barra de pesquisa */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px; /* Espaço abaixo do cabeçalho */
+  }
+  
+  #search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  /* Container dos quadrados */
+  .squares-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  /* Estilo dos quadrados */
+  .square {
+    background-color: white;
+    padding: 30px;
+    width: calc(33.33% - 20px);  /* Ajuste para 3 quadrados por linha */
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .square h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .square-image {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+  }
+  
+  .square a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .square a:hover {
+    background-color: red;
+  }
+
+.buttonstyle{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+  
